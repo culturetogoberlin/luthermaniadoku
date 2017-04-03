@@ -14,5 +14,5 @@ Objekte dieses Objekttyps waren nicht in der physischen Ausstellung zu sehen sin
 
 ## Objekttyp MWW-HAB-Literatur
 
-In den Objekten dieses Typs sind ausschließlich Literaturangaben erfasst. 
+In den Objekten dieses Typs sind ausschließlich Literaturangaben erfasst. Diese lassen sich über markierte Sigeln als Tool-Box-Fenster aufrufen. 
 
