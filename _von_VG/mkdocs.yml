@@ -1,0 +1,57 @@
+# Project information
+site_name: 'Dokumentation Virtuelle Ausstellungen MWW'
+site_description: 'Omekabasierte virtuelle Ausstellungen der MWW-HAB'
+site_author: 'MWW-HAB, Culture to Go & Grandgeorg Websolutions'
+
+# Copyright
+copyright: 'Copyright &copy; 2017 Forschungsverbund MWW'
+
+# Structure
+pages:
+- Start: index.md
+- Objekttypen: objekttypen.md
+- Objekttyp MWW-HAB: mww-hab.md
+- Objekttyp MWW-HAB Literatur: mww-hab-literatur.md
+- Plugins:
+  - Plugin Spreadsheets: spreadsheets.md
+  - Plugin Timelines: timelines.md
+# - Cheatsheet: cheatsheet.md
+
+# Theme
+theme: material
+theme_dir: themes/mkdocs-material/material
+
+# Options
+extra:
+  logo: 'img/logo.svg'
+  palette:
+    primary: 'blue grey'
+    accent: 'blue grey'
+
+extra_css:
+    - css/extra.css
+
+extra_javascript:
+    - js/jquery-3.1.1.min.js
+    - js/extra.js
+
+use_directory_urls: true
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite(guess_lang=false)
+  - footnotes
+  - meta
+  - toc(permalink=true)
+  - sane_lists
+  - attr_list
+  - custom_span_class
+  - figureAltCaption
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.inlinehilite
